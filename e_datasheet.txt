@@ -1,0 +1,17 @@
+[ : Jump to ] if zero
+] : Jump to [ if nonzero
+. : cout << interpreter.selectedMemoryLocation.content;
+, : cin
+< : interpreter.selectedMemoryLocation--
+> : interpreter.selectedMemoryLocation++
++ : interpreter.selectedMemoryLocation.content++
+- : interpreter.selectedMemoryLocation.content--
+
+"": Define function name
+{ : Define function 
+} : Terminate function definition
+( : call function by name
+) : terminate function call
+; : return
+$ : copy to accumulator
+§ : paste from accumulator
